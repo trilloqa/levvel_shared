@@ -1,0 +1,58 @@
+/* Standard browser css override */
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+  overflow-x: auto;
+  height: 100%
+}
+
+table {
+  empty-cells: show;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
+body {
+  border: 0px;
+  margin: 0px auto;
+  font-family: Roboto, sans-serif;
+  color: #222222;
+  background-color: #ffffff;
+  height: 100%
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+.main-logo {
+  padding-left: 10px;
+  padding-right: 15px;
+  border-right: 1px solid #ccc;
+}
+
+.main-app-name {
+  font-family: arial;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.main-menu {
+  justify-content: flex-end;
+}
+
+.main-menu.collapse.show,
+.main-menu.collapsing {
+  padding-top: 20px;
+}
+
+.login-menu {
+  right: 0;
+  left: auto;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 1rem 0;
+  font-size: 0.75rem;
+  width: 100%;
+}
