@@ -15,7 +15,7 @@
     var postUrl = null;
     if (actionName === "_logout") {
       Trillo.sessionStorage.removeItem("_trillo-access-token_");
-      window.location.replace("_logout");
+      window.location.replace((Trillo.appContext.orgName ? Trillo.appContext.orgName + "/" : "") + "_logout");
       return true;
     } else if (actionName === "myProfile") {
       formName = "MyProfileForm";
